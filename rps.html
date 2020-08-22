@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper & Scissors</title>
+	<link rel="stylesheet" type="text/css" href="rps-style.css">
+</head>
+<body>
+	<section class="game">
+		
+		<div class="score">
+			<div class="player-score">
+				<h2 id="player-name">Player</h2><hr>
+				<p>0</p>
+			</div>
+			<div class="computer-score">
+				<h2>Computer</h2><hr>
+				<p>0</p>
+			</div>
+		</div>
+
+		<div class="intro">
+			<h1>Rock Paper and Scissors</h1>
+			<p>Score 10 to win the round!</p>
+			<button id="play-btn">Let's Play!</button>
+		</div>
+
+		<div class="match fadeOut">
+			<h2 class="winner" id="winner">Choose an option</h2>
+			<div class="hands">
+				<img src="img/rock.png" alt="player-hand" class="player-hand">
+				<img src="img/rock.png" alt="computer-hand" class="computer-hand">
+			</div>
+			<div class="options">
+				<button class="rock">rock</button>
+				<button class="paper">paper</button>
+				<button class="scissors">scissors</button>
+			</div>
+		</div>
+
+	</section>
+	<script type="text/javascript" src="rps-app.js"></script>
+</body>
+</html>
